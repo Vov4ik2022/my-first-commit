@@ -1,11 +1,61 @@
-body {
-    color:rgb(118, 38, 247);
+
+/* ВЕСЬ ОТЩИЙ ДИВ */
+.general {
     font-size: 14px;
-    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(8, 3, 37);
 }
 
-.set {
-    color: red;
-    font-size: 30px;
-    line-height: 50px;
+
+
+/* сайдбар (машини) */
+.vip2 {
+    /* background-color: rgb(91, 250, 70); */
+    width: 500px;
+    padding: 10px;
+}
+
+/* сайдбар (текст) */
+.vip {
+    /* background-color: rgb(223, 243, 42); */
+    width: 400px;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+}
+
+/* Три блока в одном */
+.fst {
+    margin: 80px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+li, h1, h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+
+/* Блоки по отдельности */
+.first {
+    /* background-color: blanchedalmond; */
+    margin: 0 0 150px 0;   
+}
+
+ul {
+    padding: 0 0 0 17px;
+}
+
+
+.second {
+    /* background-color: aquamarine; */
+    margin: 0 0 130px 0;
+}
+
+
+.third {
+    /* background-color: rgb(210, 177, 241); */
 }
