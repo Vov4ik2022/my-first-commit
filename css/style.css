@@ -1,62 +1,48 @@
-
-/* ВЕСЬ ОТЩИЙ ДИВ */
-.general {
-    font-size: 14px;
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(8, 3, 37);
-}
-
-
-
-/* сайдбар (машини) */
-.vip2 {
-    /* background-color: rgb(91, 250, 70); */
-    width: 500px;
-    padding: 10px;
-}
-
-/* сайдбар (текст) */
-.vip {
-    /* background-color: rgb(223, 243, 42); */
-    width: 400px;
-    margin: 0 20px 20px 0;
-    padding: 10px;
-}
-
-/* Три блока в одном */
-.fst {
-    margin: 80px 20px 20px 20px;
-    padding: 20px 20px 20px 20px;
-}
-
-li, h1, h2 {
-    font-family: 'Montserrat';
-    font-style: normal;
+h1 {
+    color: rgb(0, 0, 255);
+    display:block;
+    font-size: 40px;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: rgb(243, 237, 180);
+    text-align: center;
+    width: 500px;
 }
 
-/* Блоки по отдельности */
-.first {
-    /* background-color: blanchedalmond; */
-    margin: 0 0 150px 0;   
+h2 {
+    color: rgb(0, 128, 0);
+    display:block;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    width: 500px;
+}
+
+b {
+    font-weight: bold;
+    
+}
+
+p {
+    width: 500px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: Arial;
+    text-indent: 40px;
+}
+
+i {
+    color: green;
+    font-style: italic;
 }
 
 ul {
-    padding: 0 0 0 17px;
+    width: 400px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
 }
 
-
-.second {
-    /* background-color: aquamarine; */
-    margin: 0 0 130px 0;
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
-
-
-.third {
-    /* background-color: rgb(210, 177, 241); */
-}
-
