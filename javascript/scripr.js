@@ -1,34 +1,25 @@
-function splitMessage(message, delimiter) {
-  let words;
-  // Change code below this line
-   return message.split(" ");
-
-
-  // Change code above this line
-  return words;
-}
-
-splitMessage("Mango hurries to the train", " ");
-splitMessage("Mango", "");
-splitMessage("best_for_week", "_");
-
-
-// Дополни код функции splitMessage(message, delimiter) так,
-//     чтобы она возвращала в переменной words результат разделения
-// строки message по разделителю delimiter - массив строк
-
-
-// function getExtremeElements(array) {
-//   // Change code below this line
-
-//   let firstElementsIndex = 0;
-//   let firstElements = array[firstElementsIndex];
-//   let lastElementsIndex = array.length - 1;
-//   let lastElements = array[lastElementsIndex];
-//   return [firstElements, lastElements];
-//   // Change code above this line
+// function calculateEngravingPrice(message, pricePerWord) {
+//    // Change code below this line
+//   const arr = message.split(" ");
+//     console.log(arr.length * pricePerWord);
 // }
 
-// getExtremeElements([1, 2, 3, 4, 5]);
-// getExtremeElements(["Earth", "Mars", "Venus"]);
-// getExtremeElements(["apple", "peach", "pear", "banana"]);
+
+// calculateEngravingPrice("JavaScript is in my blood", 10);
+// calculateEngravingPrice("JavaScript is in my blood", 20);
+// calculateEngravingPrice("Web-development is creative work", 40);
+// calculateEngravingPrice("Web-development is creative work", 20);
+
+
+function slugify(title) {
+  // Change code below this line
+  const arr = title.toLowerCase() + .join("-");
+ 
+    console.log(arr);
+  // Change code above this line
+}
+
+slugify("Arrays for begginers");
+slugify("English for developer");
+slugify("Ten secrets of JavaScript");
+slugify("How to become a JUNIOR developer in TWO WEEKS");
