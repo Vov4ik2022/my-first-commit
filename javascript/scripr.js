@@ -11,15 +11,50 @@
 // calculateEngravingPrice("Web-development is creative work", 20);
 
 
-function slugify(title) {
-  // Change code below this line
-  const arr = title.toLowerCase() + .join("-");
- 
-    console.log(arr);
-  // Change code above this line
-}
+// const feedback = {
+//   good: 5,
+//   neutral: 10,
+//   bad: 3,
+// };
 
-slugify("Arrays for begginers");
-slugify("English for developer");
-slugify("Ten secrets of JavaScript");
-slugify("How to become a JUNIOR developer in TWO WEEKS");
+// const keys = Object.keys(feedback);
+// console.log(keys);
+
+// for (const key of keys) {
+//   console.log(key);
+// }
+// console.log(feedback[key]);
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const keys = [];
+// const values = [];
+// // Change code below this line
+// for (const key in apartment) {
+//   keys.push(key);
+//   values.push(apartment[key]);
+//   console.log(key);
+//   console.log(apartment[key]);
+// }
+
+
+
+// Не ЗНАЮ КАК ДЕЛАТЬ!!!!!! НЕ ПОНИМАЮ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// function countProps(object) {
+//   let propCount = 0;
+//   // Change code below this line
+
+//   // Change code above this line
+//   return propCount;
+// }
+
+// countProps({});
+// countProps({ name: "Mango", age: 2 });
+// countProps({ mail: "poly@mail.com", isOnline: true, score: 500 });
+
+
+// =================================================================
+
